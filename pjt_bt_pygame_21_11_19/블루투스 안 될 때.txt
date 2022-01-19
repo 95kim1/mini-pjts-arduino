@@ -1,0 +1,4 @@
+sudo /boot/config.txt
+	dtoverlay=pi3-enable-bt
+
+sudo systemctl enable hciuart

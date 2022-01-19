@@ -1,0 +1,11 @@
+1. arduino_setting_bt.ino 를 먼저 업로드
+	1. 장치 이름 변경
+		AT+NAMEkshee <- 시리얼 모니터 열어서 블루투스로 write.
+	2. PIN 넘버 변경
+		AT+PIN원하는번호
+
+2. arduino_bt.ino 업로드
+
+3. raspberry pi에 raspberrypi_app 업로드
+	cd raspberrypi_app
+	python3 game_bt.py
